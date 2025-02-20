@@ -84,7 +84,7 @@ Get high Heart Rate Events
 ```bash
 curl --location 'http://localhost:3000/heart-monitor/highHeartRateEvents'
 ```
-Get heart rate rvents analytics
+Get heart rate events analytics
 
 ```bash
 curl --location 'http://localhost:3000/heart-monitor/heartRateEventsAnalytics?startTimeRange=2021-03-06T11%3A00%3A00.000Z&endTimeRange=2024-03-06T11%3A00%3A00.000Z'
