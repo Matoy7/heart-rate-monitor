@@ -45,9 +45,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## API exapmle:
+# API exapmle:
 
-# patient API:
+## patient API:
 
 Get patient:
 
@@ -68,7 +68,7 @@ Get Patinet number of requests (metadata):
 curl --location 'http://localhost:3000/patient/metadata' \
 --header 'Content-Type: application/json'
 
-# Heart monitor:
+## Heart monitor:
 
 Create Reading:
 
