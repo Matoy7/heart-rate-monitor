@@ -45,6 +45,50 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+API exapmle:
+
+patient API:
+
+Get patient:
+
+curl --location 'http://localhost:3000/patient/1' \
+--header 'Content-Type: application/json'
+
+Create patinet:
+
+curl --location 'http://localhost:3000/patient' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "Yotam Eliraz",
+    "age": 99
+}'
+
+
+Get Patinet number of requests (metadata):
+curl --location 'http://localhost:3000/patient/metadata' \
+--header 'Content-Type: application/json'
+
+Heart monitor:
+
+Create Reading:
+
+curl --location 'http://localhost:3000/heart-monitor' \
+--header 'Content-Type: application/json' \
+--data '{
+    "patient_id": 16,
+    "value": 600,
+    "time": "2022-03-06T11:00:00.000Z"
+}'
+
+get high Heart Rate Events
+
+curl --location 'http://localhost:3000/heart-monitor/highHeartRateEvents'
+
+
+get heartRateEventsAnalytics
+
+curl --location 'http://localhost:3000/heart-monitor/heartRateEventsAnalytics?startTimeRange=2021-03-06T11%3A00%3A00.000Z&endTimeRange=2024-03-06T11%3A00%3A00.000Z'
+
 ## Run tests
 
 ```bash
