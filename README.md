@@ -49,13 +49,13 @@ $ npm run start:prod
 
 ## Patient API:
 
-Get patient:
+1. Get patient:
 
 ```bash
 curl --location 'http://localhost:3000/patient/1' --header 'Content-Type: application/json'
 ```
 
-Create patinet:
+2. Create patinet:
 
 ```bash
 curl --location 'http://localhost:3000/patient' --header 'Content-Type: application/json' --data '{
@@ -64,13 +64,13 @@ curl --location 'http://localhost:3000/patient' --header 'Content-Type: applicat
 }'
 ```
 
-Get patient Request Tracking (I refered to it as metadata):
+3. Get patient Request Tracking (I refered to it as metadata):
 ```bash
 curl --location 'http://localhost:3000/patient/metadata' --header 'Content-Type: application/json'
 ```
 ## Heart monitor API:
 
-Create Reading:
+1. Create Reading:
 
 ```bash
 curl --location 'http://localhost:3000/heart-monitor' --header 'Content-Type: application/json' --data '{
@@ -79,12 +79,12 @@ curl --location 'http://localhost:3000/heart-monitor' --header 'Content-Type: ap
     "time": "2022-03-06T11:00:00.000Z"
 }'
 ```
-Get high Heart Rate Events
+2. Get high Heart Rate Events
 
 ```bash
 curl --location 'http://localhost:3000/heart-monitor/highHeartRateEvents'
 ```
-Get heart rate events analytics
+3. Get heart rate events analytics
 
 ```bash
 curl --location 'http://localhost:3000/heart-monitor/heartRateEventsAnalytics?startTimeRange=2021-03-06T11%3A00%3A00.000Z&endTimeRange=2024-03-06T11%3A00%3A00.000Z'
