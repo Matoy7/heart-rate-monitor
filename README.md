@@ -68,7 +68,7 @@ Get patient Request Tracking (I refered to it as metadata):
 ```bash
 curl --location 'http://localhost:3000/patient/metadata' --header 'Content-Type: application/json'
 ```
-## Heart monitor:
+## Heart monitor API:
 
 Create Reading:
 
