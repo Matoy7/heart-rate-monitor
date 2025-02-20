@@ -45,7 +45,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-# API exapmle:
+# API exapmles:
 
 ## patient API:
 
@@ -79,12 +79,12 @@ curl --location 'http://localhost:3000/heart-monitor' --header 'Content-Type: ap
     "time": "2022-03-06T11:00:00.000Z"
 }'
 ```
-get high Heart Rate Events
+Get high Heart Rate Events
 
 ```bash
 curl --location 'http://localhost:3000/heart-monitor/highHeartRateEvents'
 ```
-get heartRateEventsAnalytics
+Get heart rate rvents analytics
 
 ```bash
 curl --location 'http://localhost:3000/heart-monitor/heartRateEventsAnalytics?startTimeRange=2021-03-06T11%3A00%3A00.000Z&endTimeRange=2024-03-06T11%3A00%3A00.000Z'
