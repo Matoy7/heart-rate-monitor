@@ -47,7 +47,7 @@ $ npm run start:prod
 
 # API exapmles:
 
-## patient API:
+## Patient API:
 
 Get patient:
 
