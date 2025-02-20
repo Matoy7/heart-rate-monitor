@@ -64,7 +64,7 @@ curl --location 'http://localhost:3000/patient' --header 'Content-Type: applicat
 }'
 ```
 
-Get Patinet number of requests (metadata):
+Get patient Request Tracking (I refered to it as metadata):
 ```bash
 curl --location 'http://localhost:3000/patient/metadata' --header 'Content-Type: application/json'
 ```
